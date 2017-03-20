@@ -1,0 +1,46 @@
+body{
+	background-color: #eee;
+}
+.container{
+	max-width: 1905px;
+	overflow: hidden;
+}
+
+.navbar{
+	border: none;
+	background-color: #eee;
+}
+.navbar-header a{
+	padding-top: 0;
+}
+
+.banner{
+	width: 100%;
+	background-color: #050505;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.banner .bannerc{
+	padding: 50px 50px;
+}
+.banner .bannerc h4{
+	color:#ccc;
+	font-size: 28px;
+}
+.banner .bannerc p{
+	color: #ccc;
+	font-size: 16px;
+}
+.caption{
+	text-align: center;
+}
+
+.footer{
+	background-color: #666;
+	text-align: center;
+	padding: 15px 0;
+}
+.footer p{
+	font-size: 12px;
+	color: #ede9e3;
+}

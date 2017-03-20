@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>掌职网</title>
+    <!-- Bootstrap -->
+    <link href="bootdist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/first.css">
+    <!--[if lt IE 9]>
+      <script src="bootdist/js/html5shiv.js"></script>
+      <script src="bootdist/js/respond.js"></script>
+    <![endif]-->
+   
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display  -->
+                        <div class="navbar-header col-md-3 col-sm-3">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">掌职网</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <!-- <img src="images/zz.png" alt="" class="logo"> -->
+                            <a class="navbar-brand " href="#">
+                            <span>掌职网</span></a>
+                        </div>
+                       <!--  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#">首页home page</a></li>
+                                <li><a href="#">职位position</a></li>
+                                <li><a href="#">任务task</a></li>
+                                <li><a href="#">课程course</a></li>
+                                <li><a href="#">企业company</a></li>
+                            </ul>
+                        </div> -->
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse col-md-9 col-sm-9" id="bs-example-navbar-collapse-1">
+                           <ul class="nav navbar-nav ">
+                                <li><a href="#">首页home page</a></li>
+                                <li><a href="#">职位position</a></li>
+                                <li><a href="#">任务task</a></li>
+                                <li><a href="#">课程course</a></li>
+                                <li><a href="#">企业company</a></li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right ">
+                                <li><a href="#">注册  |</a></li>
+                                <li><a href="#">登录</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container container_search">
+        <div class="input-group">
+            <input type="text" class="form-control input_search" placeholder="查询课程">
+            <div class="input-group-btn ">
+                <button class="btn btn-warning btn_search">
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container container_main">
+        <div class="row">
+            <div class="col-md-3 main_left">
+                <p class="course">全部课程</p>
+                <p class="time">上课时间：</p>
+               <div class="dropdown selyear">
+                            <button type="button" class="btn btn-default btn-md dropdown-toggle" data-toggle="dropdown">
+                                2016
+                                <span class="caret"></span>
+                            </button> 年
+                            <ul class="dropdown-menu">
+                                <li><a href="#">2017</a></li>
+                                <li><a href="#">2016</a></li>
+                                <li><a href="#">2015</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown selmonth">
+                            <button type="button" class="btn btn-default dropdown-toggle btn-md" data-toggle="dropdown">
+                                03
+                                <span class="caret"></span>
+                            </button> 月
+                            <ul class="dropdown-menu">
+                                <li><a href="#"> 01 </a></li>
+                                <li><a href="#"> 02 </a></li>
+                                <li><a href="#"> 03 </a></li>
+                                <li><a href="#"> 04 </a></li>
+                                <li><a href="#"> 05 </a></li>
+                                <li><a href="#"> 06 </a></li>
+                            </ul>
+                        </div>
+
+                    
+                        <div class="dropdown seldate">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                15
+                                <span class="caret"></span>
+                            </button> 日前
+                            <ul class="dropdown-menu">
+                                <li><a href="#"> 01 </a></li>
+                                <li><a href="#"> 02 </a></li>
+                                <li><a href="#"> 03 </a></li>
+                                <li><a href="#"> 04 </a></li>
+                                <li><a href="#"> 05 </a></li>
+                                <li><a href="#"> 06 </a></li>
+                                <li><a href="#"> 07 </a></li>
+                            </ul>
+                        </div>
+                     <p class="cut"></p>
+
+                    
+                <p class="place">上课地点：</p>
+               <div class="dropdown selyear">
+                            <button type="button" class="btn btn-default btn-md dropdown-toggle" data-toggle="dropdown">
+                                湖南
+                                <span class="caret"></span>
+                            </button> 省
+                            <ul class="dropdown-menu">
+                                <li><a href="#">江苏</a></li>
+                                <li><a href="#">上海</a></li>
+                                <li><a href="#">广东</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown selmonth">
+                            <button type="button" class="btn btn-default dropdown-toggle btn-md" data-toggle="dropdown">
+                                长沙
+                                <span class="caret"></span>
+                            </button> 市
+                            <ul class="dropdown-menu">
+                                <li><a href="#"> 01 </a></li>
+                                <li><a href="#"> 02 </a></li>
+                                <li><a href="#"> 03 </a></li>
+                                <li><a href="#"> 04 </a></li>
+                                <li><a href="#"> 05 </a></li>
+                                <li><a href="#"> 06 </a></li>
+                            </ul>
+                        </div>
+
+                    
+                        <div class="dropdown seldate">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                雨花
+                                <span class="caret"></span>
+                            </button> 县|区
+                            <ul class="dropdown-menu">
+                                <li><a href="#"> 01 </a></li>
+                                <li><a href="#"> 02 </a></li>
+                                <li><a href="#"> 03 </a></li>
+                                <li><a href="#"> 04 </a></li>
+                                <li><a href="#"> 05 </a></li>
+                                <li><a href="#"> 06 </a></li>
+                                <li><a href="#"> 07 </a></li>
+                            </ul>
+                        </div>
+            </div>
+
+
+            <div class="col-md-9 main_right"> 
+                <div class="row">
+                    <div class="col-md-12 top">
+                        <p>一共为您搜索到100个结果</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/tl.jpg" width="100%" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/tl.jpg" width="100%" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/tl.jpg" width="100%" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/tl.jpg" width="100%" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/tl.jpg" width="100%" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/tl.jpg" width="100%" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/tl.jpg" width="100%" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/tl.jpg" width="100%" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/tl.jpg" width="100%" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/tl.jpg" width="100%" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/tl.jpg" width="100%" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/tl.jpg" width="100%" alt="">
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootdist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
